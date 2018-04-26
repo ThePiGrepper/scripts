@@ -1,5 +1,6 @@
 #!/bin/bash
-#MUST RUN from linux build basedir
+# MUST RUN from linux build basedir
+# Usage: ./script <dest_ip> [<suffix>]
 if test $# -lt 1 ; then
   echo "not enough arguments. abort"
   exit 1
